@@ -1,0 +1,22 @@
+.loader {
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 200vh;
+  color: azure;
+  text-align: center;
+}
+
+.p {
+  margin-top: 230px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .loader {
+    display: none;
+  }
+}

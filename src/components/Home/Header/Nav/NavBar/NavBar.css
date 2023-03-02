@@ -1,0 +1,8 @@
+.navbar-links a {
+  margin-right: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.intro {
+  height: 400px;
+  width: 1000px;
+}
+
+.intro-container {
+  margin: 300px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 5px solid white; */
+}
+
+.H1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro {
+    width: auto;
+  }
+}

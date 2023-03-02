@@ -1,0 +1,10 @@
+.code-card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 500px;
+  line-height: 40px;
+  border: 5px solid wheat;
+}

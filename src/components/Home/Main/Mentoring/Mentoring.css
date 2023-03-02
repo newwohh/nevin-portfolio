@@ -1,0 +1,22 @@
+.mentoring-box {
+  margin-bottom: 200px;
+  margin-top: 300px;
+}
+
+.mentoring-box-content {
+  border: 5px solid white;
+}
+
+.tab-head {
+  color: white;
+}
+
+.mentr {
+  width: 700px;
+}
+
+@media screen and (max-width: 600px) {
+  .mentr {
+    width: 300px;
+  }
+}
