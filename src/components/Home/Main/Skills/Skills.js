@@ -22,7 +22,7 @@ export default function SkillsCard() {
             minWidth: 275,
             "@media (max-width:1000px)": {
               width: "250px",
-              marginLeft: "-50px",
+              marginLeft: "-30px",
             },
           }}
           className="skills-card"

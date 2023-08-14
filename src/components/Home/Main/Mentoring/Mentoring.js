@@ -24,7 +24,14 @@ export default function Mentoring() {
       style={{ borderColor: "#002D62", marginLeft: "-120px" }}
     >
       <CssBaseline />
-      <Container maxWidth="sm">
+      <Container
+        maxWidth="sm"
+        sx={{
+          "@media (max-width:1000px)": {
+            marginLeft: "60px",
+          },
+        }}
+      >
         <Box
           sx={{
             typography: "body1",
