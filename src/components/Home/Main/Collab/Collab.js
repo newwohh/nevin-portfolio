@@ -1,5 +1,4 @@
 import "./Collab.css";
-
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -10,9 +9,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { TextField } from "@mui/material";
 import PropTypes from "prop-types";
-import Backdrop from "@mui/material/Backdrop";
 import { useSpring, animated } from "@react-spring/web";
-import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 
 const Fade = React.forwardRef(function Fade(props, ref) {
   const {
