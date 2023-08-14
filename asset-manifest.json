@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nevin-portfolio/static/css/main.db276113.css",
-    "main.js": "/nevin-portfolio/static/js/main.20727623.js",
+    "main.js": "/nevin-portfolio/static/js/main.8f784404.js",
     "static/js/787.a2cb61a6.chunk.js": "/nevin-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/fa-solid-900.ttf": "/nevin-portfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/fa-brands-400.ttf": "/nevin-portfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
@@ -20,11 +20,11 @@
     "index.html": "/nevin-portfolio/index.html",
     "static/media/css.svg": "/nevin-portfolio/static/media/css.7337353287b450e99f8145233e9a6226.svg",
     "main.db276113.css.map": "/nevin-portfolio/static/css/main.db276113.css.map",
-    "main.20727623.js.map": "/nevin-portfolio/static/js/main.20727623.js.map",
+    "main.8f784404.js.map": "/nevin-portfolio/static/js/main.8f784404.js.map",
     "787.a2cb61a6.chunk.js.map": "/nevin-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db276113.css",
-    "static/js/main.20727623.js"
+    "static/js/main.8f784404.js"
   ]
 }
