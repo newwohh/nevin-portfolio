@@ -24,7 +24,6 @@ import { TextField } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About Me ", "Contact", "Skils", "Mentorship"];
 
 const style = {
   position: "absolute",
@@ -88,7 +87,10 @@ function DrawerAppBar(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar
+        component="nav"
+        sx={{ backgroundColor: "#002D62", boxShadow: "none" }}
+      >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -104,7 +106,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            N
+            Nevin
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Link to="top" spy={true} smooth={true}>

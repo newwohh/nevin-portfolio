@@ -7,7 +7,7 @@ import "./IntroCard.css";
 
 export default function IntroCard() {
   return (
-    <Card sx={{ minWidth: 275 }} className="code-card">
+    <Card sx={{ minWidth: 275, borderColor: "#002D62" }} className="code-card">
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
@@ -15,8 +15,9 @@ export default function IntroCard() {
         <TypeWriter typing={1} className="tw-text">
           &lt;script type="text/javascript"&gt;
           <br /> function getInspiration() {} <br />
-          ( ifmorningDay ==depressed )
-          <br /> start Coding get Awesome
+          {`if(morningDay == depressed )`}
+          <br /> <span style={{ color: "blue" }}>return</span> start Coding get
+          Awesome
           <br />
           &lt;script&gt;
         </TypeWriter>

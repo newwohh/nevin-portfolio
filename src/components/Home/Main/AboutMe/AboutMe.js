@@ -6,7 +6,11 @@ export default function AboutMe() {
   return (
     <div className="to-about">
       <div className="about">
-        <Card sx={{ minWidth: 275 }} className="about-card" id="about">
+        <Card
+          sx={{ minWidth: 275, borderColor: "#002D62" }}
+          className="about-card"
+          id="about"
+        >
           <CardContent>
             <div className="text">
               <p>

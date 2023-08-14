@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import { useSpring, animated } from "@react-spring/web";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import { TextField } from "@mui/material";
+import { lightBlue } from "@mui/material/colors";
 
 const Fade = React.forwardRef(function Fade(props, ref) {
   const {
@@ -73,6 +74,7 @@ export default function SayHi() {
         variant="outlined"
         startIcon={<EmojiPeopleIcon />}
         onClick={handleOpen}
+        sx={{ borderRadius: "15px", color: lightBlue }}
       >
         Say hi
       </Button>{" "}

@@ -17,9 +17,20 @@ export default function SkillsCard() {
   return (
     <div className="to-skills" id="to-skills">
       <div className="skills">
-        <Card sx={{ minWidth: 275 }} className="skills-card">
+        <Card
+          sx={{
+            minWidth: 275,
+            "@media (max-width:1000px)": {
+              width: "250px",
+              marginLeft: "-50px",
+            },
+          }}
+          className="skills-card"
+        >
           <CardContent id="skills">
-            <p className="skills-head">My Skills</p>
+            <p className="skills-head" style={{ color: "#002D62" }}>
+              My Skills
+            </p>
             <p className="skills-text">
               The following skills are part of my toolbox. <br /> One of the
               things I love is learning new technologies.It's amazing how huge

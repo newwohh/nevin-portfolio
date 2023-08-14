@@ -18,7 +18,11 @@ export default function Mentoring() {
   };
 
   return (
-    <div className="mentoring-box" id="mentoring">
+    <div
+      className="mentoring-box"
+      id="mentoring"
+      style={{ borderColor: "#002D62", marginLeft: "-120px" }}
+    >
       <CssBaseline />
       <Container maxWidth="sm">
         <Box

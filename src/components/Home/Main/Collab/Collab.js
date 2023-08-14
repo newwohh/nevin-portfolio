@@ -97,7 +97,15 @@ export default function Collab() {
               textAlign: "center",
             }}
           >
-            <Button onClick={handleOpen} sx={{ width: "200px" }}>
+            <Button
+              onClick={handleOpen}
+              sx={{
+                width: "200px",
+                borderRadius: "12px",
+                backgroundColor: "#002D62",
+                color: "white",
+              }}
+            >
               Let's Go
             </Button>
             <Modal
